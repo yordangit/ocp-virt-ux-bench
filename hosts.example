@@ -1,0 +1,7 @@
+# One bastion per line.
+# Bastion: SSH jump host close to the cluster (same datacenter / local network),
+# with oc/virtctl and a kubeconfig for that cluster.
+#
+# Copy to ./hosts and edit, or pass --bastions / --hosts to dispatch.sh.
+#
+# bastion.example.com

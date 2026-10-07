@@ -1,0 +1,13 @@
+# Local inventories / config (may contain internal names / paths)
+hosts
+clusters
+env.sh
+
+# Benchmark output
+results/
+
+# OS / editor noise
+.DS_Store
+*.swp
+*~
+todo.md

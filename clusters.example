@@ -1,0 +1,9 @@
+# One kubeconfig path per line (localhost mode).
+# Result folder name = basename of the path (e.g. ~/.kube/ocp1 → ocp1).
+#
+# Copy to ./clusters and edit, or pass --kubeconfigs / --clusters to dispatch.sh:
+#   ./dispatch.sh --local --parallel
+#   ./dispatch.sh --local --kubeconfigs ~/.kube/ocp1,~/.kube/ocp2
+#
+# ~/.kube/cluster-a
+# ~/.kube/cluster-b
